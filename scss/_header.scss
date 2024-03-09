@@ -1,0 +1,30 @@
+body {
+    .header-proyecto {
+        background: map-get($map: $mapa-colores, $key: color-blanco);
+        color: map-get($map: $mapa-colores, $key: color-negro);
+        font-size: 1rem;
+        margin-bottom: 40px;
+
+        .logo {
+            width: 130px;
+            height: 90px;
+        }
+
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    color: map-get($map: $mapa-colores, $key: color-negro);
+                    padding: 15px 20px;
+                    margin-top: 5px;
+                    margin-bottom: 0px;
+                    border-radius: 0px;
+                }
+
+                .nav-link:hover {
+                    box-shadow: 2px 2px 5px;
+                }
+            }
+        }
+
+    }
+}

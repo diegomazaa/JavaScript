@@ -1,0 +1,21 @@
+.main-proyecto {
+    .imgcarousel {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+.ventaprincipal {
+    .card-group {
+        .card {
+            border: 2px solid rgb(40, 7, 133);
+            margin: 25px 50px 75px 100px
+        }
+
+        .card:hover {
+            box-shadow: 2px 2px 5px map-get($map: $mapa-colores, $key: color-negro);
+        }
+
+    }
+}

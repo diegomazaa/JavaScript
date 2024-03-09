@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.error404 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.boton {
+    padding: 13px 30px;
+    border-radius: 15px;
+    border: none;
+    background: rgb(5, 129, 245);
+}

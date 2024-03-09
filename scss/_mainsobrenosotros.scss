@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+}
+
+.tituloimportate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 2em;
+}
+
+.texto-explicativo {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+@media (max-width: 768px) {
+    .tituloimportante {
+        font-size: 1.5em;
+    }
+
+    .texto-explicativo {
+        font-size: 1em;
+    }
+}
